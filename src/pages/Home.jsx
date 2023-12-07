@@ -274,7 +274,7 @@ function Home() {
                 chance to save big.
               </p>
               <button className="bg-[#ff4d30] text-white px-6 py-4 rounded text-lg shadow_active">
-                Find Details <i class="ri-arrow-right-s-line"></i>
+                Find Details <i className="ri-arrow-right-s-line"></i>
               </button>
             </div>
             <div className="w-full h-full px-10 max-sm:px-4">
