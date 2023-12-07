@@ -49,15 +49,7 @@ function Header() {
               </NavLink>
             </li>
             <li className="text-2xl py-3">
-              <Link
-                to="/models"
-                onClick={() => setmobile_nav(false)}
-                className={({ isActive }) =>
-                  isActive ? " text-[#ff4d30]" : ""
-                }
-              >
-                Models
-              </Link>
+              <Link to="/models">Models</Link>
             </li>
             <li className="text-2xl py-3">
               <NavLink
@@ -132,14 +124,7 @@ function Header() {
               </NavLink>
             </li>
             <li>
-              <NavLink
-                to="/models"
-                className={({ isActive }) =>
-                  isActive ? " text-[#ff4d30]" : ""
-                }
-              >
-                Vehicle Models
-              </NavLink>
+              <Link to="/models">Vehicle Models</Link>
             </li>
             <li>
               <NavLink
