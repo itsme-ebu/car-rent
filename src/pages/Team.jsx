@@ -1,6 +1,6 @@
 import React from "react";
 import HeroBanner from "../components/HeroBanner";
-import Member from "../components/member";
+import Member from "../components/Member";
 import BookBanner from "../components/BookBanner";
 import { useSelector } from "react-redux";
 
